@@ -1,7 +1,5 @@
 package greedy;
 
-import java.util.Collections;
-
 public class PickBowlingBall {
     public static int solution(String numberString) {
         String[] numbers = numberString.split(" ");
