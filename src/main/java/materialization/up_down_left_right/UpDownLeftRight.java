@@ -1,4 +1,4 @@
-package materialization.upDownLeftRight;
+package materialization.up_down_left_right;
 
 public class UpDownLeftRight {
     public static Coordinate solution(String moveCommend, int matrixSize) {

@@ -1,4 +1,4 @@
-package materialization.upDownLeftRight;
+package materialization.up_down_left_right;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
