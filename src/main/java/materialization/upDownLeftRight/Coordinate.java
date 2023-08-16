@@ -1,4 +1,4 @@
-package materialization.model;
+package materialization.upDownLeftRight;
 
 import java.util.Objects;
 
