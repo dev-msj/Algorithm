@@ -6,11 +6,20 @@ public class UpDownLeftRight {
 
         for (String commend : moveCommend.split(" ")) {
             switch (commend) {
-                case "L" -> coordinate.setX(coordinate.getX() - 1);
-                case "R" -> coordinate.setX(coordinate.getX() + 1);
-                case "U" -> coordinate.setY(coordinate.getY() - 1);
-                case "D" -> coordinate.setY(coordinate.getY() + 1);
-                default -> throw new RuntimeException("잘못된 입력입니다.");
+                case "L":
+                    coordinate.setX(coordinate.getX() - 1);
+                    break;
+                case "R":
+                    coordinate.setX(coordinate.getX() + 1);
+                    break;
+                case "U":
+                    coordinate.setY(coordinate.getY() - 1);
+                    break;
+                case "D":
+                    coordinate.setY(coordinate.getY() + 1);
+                    break;
+                default:
+                    throw new RuntimeException("잘못된 입력입니다.");
             }
         }
 
